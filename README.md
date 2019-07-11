@@ -1,8 +1,8 @@
 # ofxGuiExtended2
 
-This is a modified version to avoid conflicts with duplicated names (ofxGuiGroup) when use the addon together with the official ofxGui. ofxGuiGroup is renamed to ofxGuiGroup2.
+This is a modified version to avoid conflicts with duplicated names (ofxGuiGroup) when use the addon together with the official ofxGui. 'ofxGuiGroup' is renamed to 'ofxGuiGroup2'.
 
-You can have both ofxGuiExtended & ofxGuiExtended2 into /addons folders to make compatible with older projects... 
+You can have both 'ofxGuiExtended' & 'ofxGuiExtended2' into '/addons' folders to make compatible with older/other projects... 
 
 Then you must include ofxGuiExtended2.h as usual and to use ofxGuiGroup2 class.
 The use of this addon it's only recommended when you need to use the OF ofxGui in the same project.
