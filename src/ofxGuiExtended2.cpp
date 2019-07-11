@@ -1,4 +1,4 @@
-#include "ofxGuiExtended.h"
+#include "ofxGuiExtended2.h"
 
 ofxGui::ofxGui(){
 	setup_done = false;
@@ -30,12 +30,12 @@ ofxGuiContainer* ofxGui::addContainer(const ofParameterGroup & parameters, const
 	return getDocument()->add<ofxGuiContainer>(parameters, rootGroupConfig(config));
 }
 
-ofxGuiGroup* ofxGui::addGroup(const std::string& name, const ofJson& config){
-	return getDocument()->add<ofxGuiGroup>(name, rootGroupConfig(config));
+ofxGuiGroup2* ofxGui::addGroup(const std::string& name, const ofJson& config){
+	return getDocument()->add<ofxGuiGroup2>(name, rootGroupConfig(config));
 }
 
-ofxGuiGroup* ofxGui::addGroup(const ofParameterGroup & parameters, const ofJson& config){
-	return getDocument()->add<ofxGuiGroup>(parameters, rootGroupConfig(config));
+ofxGuiGroup2* ofxGui::addGroup(const ofParameterGroup & parameters, const ofJson& config){
+	return getDocument()->add<ofxGuiGroup2>(parameters, rootGroupConfig(config));
 }
 
 ofxGuiPanel* ofxGui::addPanel(const std::string& name, const ofJson& config){

@@ -1,7 +1,7 @@
 #pragma once
 
 #include "ofxGuiElement.h"
-#include "containers/ofxGuiGroup.h"
+#include "containers/ofxGuiGroup2.h"
 #include "containers/ofxGuiSliderGroup.h"
 #include "containers/ofxGuiPanel.h"
 #include "containers/ofxGuiMenu.h"
@@ -75,14 +75,14 @@ class ofxGui {
 		/// \param name The group name.
 		/// \param config The group configuration.
 		/// \returns The GUI group element.
-		ofxGuiGroup* addGroup(const std::string& name="", const ofJson& config = ofJson());
+		ofxGuiGroup2* addGroup(const std::string& name="", const ofJson& config = ofJson());
 
 		/// \brief Add a group to the document.
 		/// A group is a container of elements with a header to minimize the group.
 		/// \param parameters A parameter group containing parameters that will be added to the group.
 		/// \param config The group configuration.
 		/// \returns The GUI group element.
-		ofxGuiGroup* addGroup(const ofParameterGroup & parameters, const ofJson& config = ofJson());
+		ofxGuiGroup2* addGroup(const ofParameterGroup & parameters, const ofJson& config = ofJson());
 
 		/// \brief Add a panel to the document.
 		/// A panel is a container of elements with a header to save and load all child controls.

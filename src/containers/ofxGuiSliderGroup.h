@@ -1,10 +1,10 @@
 #pragma once
 
-#include "ofxGuiGroup.h"
+#include "ofxGuiGroup2.h"
 
 
 template<class VecType>
-class ofxGuiVecSlider_ : public ofxGuiGroup {
+class ofxGuiVecSlider_ : public ofxGuiGroup2 {
 public:
 
 	ofxGuiVecSlider_();
@@ -29,7 +29,7 @@ protected:
 	std::vector<std::string> names;
 };
 
-class ofxGuiRectangleSlider : public ofxGuiGroup {
+class ofxGuiRectangleSlider : public ofxGuiGroup2 {
 public:
 
 	ofxGuiRectangleSlider();
@@ -55,7 +55,7 @@ protected:
 };
 
 template<typename ColorType>
-class ofxGuiColorSlider_: public ofxGuiGroup{
+class ofxGuiColorSlider_: public ofxGuiGroup2{
 
 public:
 

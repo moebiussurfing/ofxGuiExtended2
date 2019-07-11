@@ -40,7 +40,7 @@ typedef ofxGuiMenuColor_<float> ofxGuiMenuFloatColor;
 
 class ofxGuiRectangleSlider;
 class ofxGuiMenuRectangle;
-class ofxGuiGroup;
+class ofxGuiGroup2;
 class ofxGuiPanel;
 class ofxGuiTabs;
 class ofxGuiMenu;
@@ -87,8 +87,8 @@ class ofxGuiContainer : public ofxGuiElement {
 
 		ofxGuiContainer* addContainer(const std::string& name="", const ofJson& config = ofJson());
 		ofxGuiContainer* addContainer(const ofParameterGroup & parameters, const ofJson& config = ofJson());
-		ofxGuiGroup* addGroup(const std::string& name="", const ofJson& config = ofJson());
-		ofxGuiGroup* addGroup(const ofParameterGroup & parameters, const ofJson& config = ofJson());
+		ofxGuiGroup2* addGroup(const std::string& name="", const ofJson& config = ofJson());
+		ofxGuiGroup2* addGroup(const ofParameterGroup & parameters, const ofJson& config = ofJson());
 		ofxGuiPanel* addPanel(const std::string& name="", const ofJson& config = ofJson());
 		ofxGuiPanel* addPanel(const ofParameterGroup & parameters, const ofJson& config = ofJson());
 		ofxGuiTabs* addTabs(const std::string& name="", const ofJson& config = ofJson());

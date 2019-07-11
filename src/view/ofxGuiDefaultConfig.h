@@ -1,6 +1,6 @@
 #pragma once
 #include "ofMain.h"
-#include "../ofxGuiExtended.h"
+#include "../ofxGuiExtended2.h"
 
 struct ofxGuiDefaultConfig{
 
@@ -66,13 +66,13 @@ struct ofxGuiDefaultConfig{
 
 				/// settings for all groups
 				{
-					ofxGuiGroup::getClassType(), {
+					ofxGuiGroup2::getClassType(), {
 					}
 				},
 
 				/// settings for all group headers
 				{
-					ofxGuiGroupHeader::getClassType(), {
+					ofxGuiGroup2Header::getClassType(), {
 						{"width", "100%"},
 						{"align-self", "stretch"},
 						{"flex","none"},

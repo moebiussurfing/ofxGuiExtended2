@@ -1,11 +1,11 @@
 #pragma once
 
-#include "ofxGuiGroup.h"
+#include "ofxGuiGroup2.h"
 #include "ofImage.h"
 
-class ofxGuiGroup;
+class ofxGuiGroup2;
 
-class ofxGuiPanelHeader : public ofxGuiGroupHeader {
+class ofxGuiPanelHeader : public ofxGuiGroup2Header {
 
 	public:
 
@@ -38,7 +38,7 @@ class ofxGuiPanelHeader : public ofxGuiGroupHeader {
 
 };
 
-class ofxGuiPanel : public ofxGuiGroup {
+class ofxGuiPanel : public ofxGuiGroup2 {
 
 	public:
 

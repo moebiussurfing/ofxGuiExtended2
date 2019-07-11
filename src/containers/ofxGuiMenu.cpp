@@ -1,4 +1,4 @@
-#include "../ofxGuiExtended.h"
+#include "../ofxGuiExtended2.h"
 #include "ofxGuiMenu.h"
 #include "ofGraphics.h"
 #include "../DOM/Document.h"

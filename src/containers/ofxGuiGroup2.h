@@ -2,11 +2,11 @@
 #include "ofxGuiContainer.h"
 
 
-class ofxGuiGroupHeader : public ofxGuiElement {
+class ofxGuiGroup2Header : public ofxGuiElement {
 	public:
-		ofxGuiGroupHeader(const ofJson &config = ofJson());
+		ofxGuiGroup2Header(const ofJson &config = ofJson());
 
-		~ofxGuiGroupHeader();
+		~ofxGuiGroup2Header();
 
 		virtual bool mousePressed(ofMouseEventArgs & args) override;
 
@@ -26,17 +26,17 @@ class ofxGuiGroupHeader : public ofxGuiElement {
 };
 
 
-class ofxGuiGroup : public ofxGuiContainer {
+class ofxGuiGroup2 : public ofxGuiContainer {
 	public:
 
-		ofxGuiGroup();
-		ofxGuiGroup(const std::string& collectionName);
-		ofxGuiGroup(const std::string& collectionName, const ofJson & config);
-		ofxGuiGroup(const ofParameterGroup & parameters, const ofJson &config = ofJson());
-		ofxGuiGroup(const ofParameterGroup & parameters, const std::string& _filename, float x = 10, float y = 10);
-		ofxGuiGroup(const std::string& collectionName, const std::string& _filename, float x = 10, float y = 10);
+		ofxGuiGroup2();
+		ofxGuiGroup2(const std::string& collectionName);
+		ofxGuiGroup2(const std::string& collectionName, const ofJson & config);
+		ofxGuiGroup2(const ofParameterGroup & parameters, const ofJson &config = ofJson());
+		ofxGuiGroup2(const ofParameterGroup & parameters, const std::string& _filename, float x = 10, float y = 10);
+		ofxGuiGroup2(const std::string& collectionName, const std::string& _filename, float x = 10, float y = 10);
 
-		virtual ~ofxGuiGroup();
+		virtual ~ofxGuiGroup2();
 
 		void setup();
 

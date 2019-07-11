@@ -222,12 +222,12 @@ ofxGuiFpsPlotter* ofxGuiContainer::addFpsPlotter(const ofJson &config){
 	return add<ofxGuiFpsPlotter>(config);
 }
 
-ofxGuiGroup* ofxGuiContainer::addGroup(const string &name, const ofJson &config){
-	return add<ofxGuiGroup>(name, config);
+ofxGuiGroup2* ofxGuiContainer::addGroup(const string &name, const ofJson &config){
+	return add<ofxGuiGroup2>(name, config);
 }
 
-ofxGuiGroup* ofxGuiContainer::addGroup(const ofParameterGroup & parameters, const ofJson &config){
-	return add<ofxGuiGroup>(parameters, config);
+ofxGuiGroup2* ofxGuiContainer::addGroup(const ofParameterGroup & parameters, const ofJson &config){
+	return add<ofxGuiGroup2>(parameters, config);
 }
 
 ofxGuiContainer* ofxGuiContainer::addContainer(const string &name, const ofJson &config){

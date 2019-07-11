@@ -9,7 +9,7 @@
 #include "ofGraphics.h"
 using namespace std;
 
-ofxGuiPanelHeader::ofxGuiPanelHeader():ofxGuiGroupHeader(){
+ofxGuiPanelHeader::ofxGuiPanelHeader():ofxGuiGroup2Header(){
 	if(!loadIcon.isAllocated() || !saveIcon.isAllocated()){
 		loadIcons();
 	}
@@ -48,7 +48,7 @@ void ofxGuiPanelHeader::generateDraw(){
 	saveBox.set(loadBox);
 	saveBox.x += iconWidth + iconSpacing;
 
-	ofxGuiGroup* _parent = dynamic_cast<ofxGuiGroup*>(parent());
+	ofxGuiGroup2* _parent = dynamic_cast<ofxGuiGroup2*>(parent());
 	if(_parent){
 		if(_parent->getShowName()){
 			textMesh = getTextMesh(_parent->getName(), textPadding, getHeight() / 2 + 4);
@@ -69,7 +69,7 @@ void ofxGuiPanelHeader::render() {
 
 	ofSetColor(textColor);
 
-	ofxGuiGroup* _parent = dynamic_cast<ofxGuiGroup*>(parent());
+	ofxGuiGroup2* _parent = dynamic_cast<ofxGuiGroup2*>(parent());
 	if(_parent){
 		if(_parent->getShowName()){
 
@@ -119,7 +119,7 @@ float ofxGuiPanelHeader::getMinWidth(){
 	generateDraw();
 	std::string text = "";
 
-	ofxGuiGroup* _parent = dynamic_cast<ofxGuiGroup*>(parent());
+	ofxGuiGroup2* _parent = dynamic_cast<ofxGuiGroup2*>(parent());
 	if(_parent){
 		if(_parent->getShowName()){
 			text += _parent->getName();
@@ -134,7 +134,7 @@ std::string ofxGuiPanelHeader::getClassType(){
 }
 
 vector<std::string> ofxGuiPanelHeader::getClassTypes(){
-	vector<std::string> types = ofxGuiGroupHeader::getClassTypes();
+	vector<std::string> types = ofxGuiGroup2Header::getClassTypes();
 	types.push_back(getClassType());
 	return types;
 }
@@ -145,7 +145,7 @@ vector<std::string> ofxGuiPanelHeader::getClassTypes(){
  */
 
 ofxGuiPanel::ofxGuiPanel(const string &collectionName)
-	:ofxGuiGroup(){
+	:ofxGuiGroup2(){
 
 	setup();
 	setName(collectionName);
@@ -230,7 +230,7 @@ std::string ofxGuiPanel::getClassType(){
 }
 
 vector<std::string> ofxGuiPanel::getClassTypes(){
-	vector<std::string> types = ofxGuiGroup::getClassTypes();
+	vector<std::string> types = ofxGuiGroup2::getClassTypes();
 	types.push_back(getClassType());
 	return types;
 }

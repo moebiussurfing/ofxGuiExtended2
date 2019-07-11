@@ -1,11 +1,11 @@
-#include "ofxGuiExtended.h"
+#include "ofxGuiExtended2.h"
 #include "ofxGuiSliderGroup.h"
 #include "../view/JsonConfigParser.h"
 using namespace std;
 
 template<class VecType>
 ofxGuiVecSlider_<VecType>::ofxGuiVecSlider_()
-	:ofxGuiGroup(){
+	:ofxGuiGroup2(){
 
 	setup();
 
@@ -135,7 +135,7 @@ template class ofxGuiVecSlider_<ofVec4f>;
 // RECTANGLE SLIDER
 
 ofxGuiRectangleSlider::ofxGuiRectangleSlider()
-	:ofxGuiGroup(){
+	:ofxGuiGroup2(){
 
 	setup();
 
@@ -274,7 +274,7 @@ const ofRectangle * ofxGuiRectangleSlider::operator->(){
 
 template<class ColorType>
 ofxGuiColorSlider_<ColorType>::ofxGuiColorSlider_()
-	:ofxGuiGroup(){
+	:ofxGuiGroup2(){
 
 	setup();
 
@@ -282,7 +282,7 @@ ofxGuiColorSlider_<ColorType>::ofxGuiColorSlider_()
 
 template<class ColorType>
 ofxGuiColorSlider_<ColorType>::ofxGuiColorSlider_(const ofJson &config)
-	:ofxGuiGroup(){
+	:ofxGuiGroup2(){
 
 	_setConfig(config);
 
