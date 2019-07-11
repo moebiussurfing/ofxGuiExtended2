@@ -4,8 +4,8 @@ This is a modified version to avoid conflicts with duplicated names (ofxGuiGroup
 
 You can have both 'ofxGuiExtended' & 'ofxGuiExtended2' into '/addons' folders to make compatible with older/other projects... 
 
-Then you must include ofxGuiExtended2.h as usual and to use ofxGuiGroup2 class.
-The use of this addon it's only recommended when you need to use the OF ofxGui in the same project.
+Then you must include 'ofxGuiExtended2.h' as usual and to use 'ofxGuiGroup2' class.
+The use of this addon it's only recommended when you need to use the OF 'ofxGui' in the same project.
 
 ----------------
 
