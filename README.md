@@ -1,5 +1,9 @@
 # ofxGuiExtended
 
+This is a modified version to avoid conflicts with duplicated names (ofxGuiGroup) when use the addon together with the official ofxGui. ofxGuiGroup is renamed to ofxGuiGroupExt.
+
+----------------
+
 [![Build status](https://travis-ci.org/frauzufall/ofxGuiExtended.svg?branch=master)](https://travis-ci.org/frauzufall/ofxGuiExtended)
 
 [![Build status](https://ci.appveyor.com/api/projects/status/ptbke4elwusby0rd?svg=true)](https://ci.appveyor.com/project/frauzufall/ofxguiextended)
