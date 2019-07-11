@@ -1,6 +1,6 @@
 # ofxGuiExtended2
 
-This is a modified version to avoid conflicts with duplicated names (ofxGuiGroup) when using the addon together with the official ofxGui. 'ofxGuiGroup' is renamed to 'ofxGuiGroup2'.
+This is a modified version to avoid conflicts with duplicated names (ofxGuiGroup) when using the addon together (in ofApp or in some included ofxAddon) with the official ofxGui. 'ofxGuiGroup' is renamed to 'ofxGuiGroup2'.
 
 You can have both 'ofxGuiExtended' & 'ofxGuiExtended2' into '/addons' folders to make compatible with older/other projects... 
 
