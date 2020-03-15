@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 example/.vs/example/v15/.suo
 example/.vs/example/v15/Browse.VC.db
 example/.vs/example/v15/ipch/AutoPCH/620515bb3ba6ff8e/OFAPP.ipch
@@ -193,3 +194,51 @@ testLayout/testLayout.vcxproj
 testLayout/testLayout.vcxproj.filters
 testLayout/testLayout.vcxproj.user
 testLayout/icon.rc
+=======
+exampleParameterGroup/bin/data/assets/images/Map.jpg
+exampleParameterGroup/bin/data/assets/LUTs/Brannan.cube
+exampleParameterGroup/bin/data/assets/LUTs/Earlybird.cube
+exampleParameterGroup/bin/data/assets/LUTs/Gotham.cube
+exampleParameterGroup/bin/data/assets/LUTs/Hefe.cube
+exampleParameterGroup/bin/data/assets/LUTs/Inkwell.cube
+exampleParameterGroup/bin/data/assets/LUTs/Lomo-fi.cube
+exampleParameterGroup/bin/data/assets/LUTs/Lord Kelvin.cube
+exampleParameterGroup/bin/data/assets/LUTs/Nashville.cube
+exampleParameterGroup/bin/data/assets/LUTs/Sutro.cube
+exampleParameterGroup/bin/data/assets/LUTs/Toaster.cube
+exampleParameterGroup/bin/data/assets/LUTs/Walden.cube
+exampleParameterGroup/bin/data/assets/LUTs/X Pro II.cube
+exampleParameterGroup/bin/data/assets/shaders/basic.vert
+exampleParameterGroup/bin/data/assets/shaders/basicVertex.vert
+exampleParameterGroup/bin/data/assets/shaders/BlobsGradient.frag
+exampleParameterGroup/bin/data/assets/shaders/CircleNoise.frag
+exampleParameterGroup/bin/data/assets/shaders/circles.frag
+exampleParameterGroup/bin/data/assets/shaders/composite.frag
+exampleParameterGroup/bin/data/assets/shaders/composite.vert
+exampleParameterGroup/bin/data/assets/shaders/composite_rgb.frag
+exampleParameterGroup/bin/data/assets/shaders/composite_rgb.vert
+exampleParameterGroup/bin/data/assets/shaders/hexagon.frag
+exampleParameterGroup/bin/data/assets/shaders/HexTunnel.frag
+exampleParameterGroup/bin/data/assets/shaders/HuePointCloud.frag
+exampleParameterGroup/bin/data/assets/shaders/PointCloud.frag
+exampleParameterGroup/bin/data/assets/shaders/pointCloud_other.frag
+exampleParameterGroup/bin/data/assets/shaders/pointCloud_other.vert
+exampleParameterGroup/bin/data/assets/shaders/removeBlack.frag
+exampleParameterGroup/bin/data/assets/shaders/removeBlack.vert
+exampleParameterGroup/bin/data/assets/shaders/rippleTunnel.frag
+exampleParameterGroup/bin/data/assets/shaders/SpikeField.frag
+exampleParameterGroup/bin/data/assets/shaders/triangleLightTunnel.frag
+exampleParameterGroup/bin/data/assets/shaders/twist.frag
+exampleParameterGroup/bin/data/assets/shaders/twist.vert
+exampleParameterGroup/Makefile
+exampleParameterGroup/exampleParameterGroup.xcodeproj/xcshareddata/xcschemes/exampleParameterGroup Release.xcscheme
+exampleParameterGroup/exampleParameterGroup.xcodeproj/xcshareddata/xcschemes/exampleParameterGroup Debug.xcscheme
+exampleParameterGroup/exampleParameterGroup.xcodeproj/project.xcworkspace/xcuserdata/manumolina.xcuserdatad/UserInterfaceState.xcuserstate
+exampleParameterGroup/exampleParameterGroup.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+exampleParameterGroup/exampleParameterGroup.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+exampleParameterGroup/exampleParameterGroup.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+exampleParameterGroup/exampleParameterGroup.xcodeproj/project.pbxproj
+exampleParameterGroup/openFrameworks-Info.plist
+exampleParameterGroup/Project.xcconfig
+exampleParameterGroup/bin/data/assets/3D/nyc-small.exr
+>>>>>>> dbcf9eeb0a1e35b43a29cc1e66b325d040f67b19
