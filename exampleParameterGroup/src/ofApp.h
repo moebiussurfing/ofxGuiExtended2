@@ -27,9 +27,20 @@ class ofApp : public ofBaseApp{
 
 		ofxGui gui;
 		ofxGuiPanel* panel;
-		ofParameter<bool> vSync;
-		ofParameterGroup parameters;
-		ofXml settings;
-		CirclesRenderer renderer1,renderer2;
+    ofxGuiGroup* group;
+    ofxGuiGroup* group1;
+    ofxGuiGroup* group2;
+    ofxGuiGroup* group3;
+
+
+    ofParameter<bool> vSync;
+
+    ofParameterGroup parameters;
+    ofParameterGroup parameters2;
+ofParameterGroup parameters3;
+
+    ofXml settings;
+
+    CirclesRenderer renderer1,renderer2;
 		ofTrueTypeFont font;
 };

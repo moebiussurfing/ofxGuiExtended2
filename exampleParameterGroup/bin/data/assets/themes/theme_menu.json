@@ -1,0 +1,44 @@
+{
+    "menu": {
+        "base": {
+            "background-color": "rgba(0,0,0,0.3)",
+            "fill-color": "rgba(220,80,50,1)",
+            "border-width": 0,
+            "border-color": "transparent",
+            "text-color": "rgba(255,255,255,0.8)",
+            "text-padding": 5,
+            "font-family": "assets/fonts/NewMediaFett.ttf",
+            "width": "100%"
+        },
+        
+        "panel": {
+            "direction": "horizontal",
+            "show-header": false,
+            "background-color": "transparent",
+            "border-width": 1,
+            "height": 40,
+            "border-color": "rgba(0,0,0,0.5)"
+        },
+        
+        "group": {
+            "width": 200,
+            "padding": 0,
+            "margin": 0
+        },
+        
+        "group-header": {
+            "show-header": true,
+            "width": "100%",
+            "margin": 0,
+            "background-color": "rgba(0,0,0,0.2)",
+            "text-color": "rgba(250,250,250,1)"
+        },
+        
+        "label": {
+            "height": 28,
+            "text-color": "rgba(220,80,50,1)",
+            "background-color": "transparent"
+        }
+        
+    }
+}
