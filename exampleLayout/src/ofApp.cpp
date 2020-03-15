@@ -9,7 +9,7 @@ void ofApp::setup(){
 
 	gui.setupFlexBoxLayout();
 
-	ofxGuiGroup* all = gui.addGroup("all", ofJson({
+	ofxGuiGroup2* all = gui.addGroup("all", ofJson({
 		{"position", "static"},
 		{"height", "100%"},
 		{"width", "100%"},
@@ -18,7 +18,7 @@ void ofApp::setup(){
 	}));
 
 	// add header group
-	ofxGuiGroup* header = all->addGroup("header", ofJson({
+	ofxGuiGroup2* header = all->addGroup("header", ofJson({
 		{"flex-direction", "row"},
 		{"show-header", false},
 		{"height", 50},
@@ -30,7 +30,7 @@ void ofApp::setup(){
 	ofxGuiTabs* tabbed_pages = all->addTabs("tabbedpages", ofJson({{"flex", 1}}));
 
 	// add a page to the tab container
-	ofxGuiGroup* page1 = tabbed_pages->addGroup("page1", ofJson({
+	ofxGuiGroup2* page1 = tabbed_pages->addGroup("page1", ofJson({
 		{"background-color", "#2377BA"},
 		{"flex-direction", "row"},
 		{"padding", 10},
@@ -50,7 +50,7 @@ void ofApp::setup(){
 	tabbed_pages->addGroup("page3", ofJson({{"background-color", "#ffaa00"}}));
 
 //	add footer group
-	ofxGuiGroup* footer = all->addGroup("footer", ofJson({
+	ofxGuiGroup2* footer = all->addGroup("footer", ofJson({
 		{"flex-direction", "row"},
 		{"show-header", false},
 		{"height", 50},
