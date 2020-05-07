@@ -1,244 +1,555 @@
+#########################
+# general patterns
+#########################
 
-<<<<<<< HEAD
-example/.vs/example/v15/.suo
-example/.vs/example/v15/Browse.VC.db
-example/.vs/example/v15/ipch/AutoPCH/620515bb3ba6ff8e/OFAPP.ipch
-example/.vs/example/v15/ipch/AutoPCH/b9932148ad70d75d/MAIN.ipch
-example/.vs/example/v15/Solution.VC.db
-example/.vs/example/v15/Solution.VC.db-shm
-example/.vs/example/v15/Solution.VC.db-wal
-example/bin/example_debug.exe
-example/bin/example_debug.exp
-example/bin/example_debug.ilk
-example/bin/example_debug.lib
-example/bin/example_debug.pdb
-example/bin/fmodex.dll
-example/bin/fmodexL.dll
-example/bin/FreeImage.dll
-example/example.sln
-example/example.vcxproj
-example/example.vcxproj.filters
-example/example.vcxproj.user
-example/icon.rc
-example/obj/Win32/Debug/Document.obj
-example/obj/Win32/Debug/Element.obj
-example/obj/Win32/Debug/Events.obj
-example/obj/Win32/Debug/example.log
-example/obj/Win32/Debug/example.tlog/CL.11380.write.1.tlog
-example/obj/Win32/Debug/example.tlog/CL.command.1.tlog
-example/obj/Win32/Debug/example.tlog/CL.read.1.tlog
-example/obj/Win32/Debug/example.tlog/example.lastbuildstate
-example/obj/Win32/Debug/example.tlog/example.write.1u.tlog
-example/obj/Win32/Debug/example.tlog/link.command.1.tlog
-example/obj/Win32/Debug/example.tlog/link.read.1.tlog
-example/obj/Win32/Debug/example.tlog/link.write.1.tlog
-example/obj/Win32/Debug/example.tlog/rc.command.1.tlog
-example/obj/Win32/Debug/example.tlog/rc.read.1.tlog
-example/obj/Win32/Debug/example.tlog/rc.write.1.tlog
-example/obj/Win32/Debug/Exceptions.obj
-example/obj/Win32/Debug/icon.res
-example/obj/Win32/Debug/JsonConfigParser.obj
-example/obj/Win32/Debug/Layout.obj
-example/obj/Win32/Debug/main.obj
-example/obj/Win32/Debug/ofApp.obj
-example/obj/Win32/Debug/ofxDOMBoxLayout.obj
-example/obj/Win32/Debug/ofxDOMFlexBoxLayout.obj
-example/obj/Win32/Debug/ofxDOMLayoutHelper.obj
-example/obj/Win32/Debug/ofxGuiButton.obj
-example/obj/Win32/Debug/ofxGuiContainer.obj
-example/obj/Win32/Debug/ofxGuiElement.obj
-example/obj/Win32/Debug/ofxGuiExtended2.obj
-example/obj/Win32/Debug/ofxGuiFpsPlotter.obj
-example/obj/Win32/Debug/ofxGuiFunctionPlotter.obj
-example/obj/Win32/Debug/ofxGuiGraphics.obj
-example/obj/Win32/Debug/ofxGuiGroup2.obj
-example/obj/Win32/Debug/ofxGuiInputField.obj
-example/obj/Win32/Debug/ofxGuiLabel.obj
-example/obj/Win32/Debug/ofxGuiMenu.obj
-example/obj/Win32/Debug/ofxGuiPanel.obj
-example/obj/Win32/Debug/ofxGuiRangeSlider.obj
-example/obj/Win32/Debug/ofxGuiSlider.obj
-example/obj/Win32/Debug/ofxGuiSliderGroup.obj
-example/obj/Win32/Debug/ofxGuiTabs.obj
-example/obj/Win32/Debug/ofxGuiToggle.obj
-example/obj/Win32/Debug/ofxGuiValuePlotter.obj
-example/obj/Win32/Debug/ofxGuiZoomableGraphics.obj
-example/obj/Win32/Debug/vc141.pdb
-exampleLayout/obj/Win32/Debug/vc141.pdb
-exampleLayout/obj/Win32/Debug/ofxGuiZoomableGraphics.obj
-exampleLayout/obj/Win32/Debug/ofxGuiValuePlotter.obj
-exampleLayout/obj/Win32/Debug/ofxGuiToggle.obj
-exampleLayout/obj/Win32/Debug/ofxGuiTabs.obj
-exampleLayout/obj/Win32/Debug/ofxGuiSliderGroup.obj
-exampleLayout/obj/Win32/Debug/ofxGuiSlider.obj
-exampleLayout/obj/Win32/Debug/ofxGuiRangeSlider.obj
-exampleLayout/obj/Win32/Debug/ofxGuiPanel.obj
-exampleLayout/obj/Win32/Debug/ofxGuiMenu.obj
-exampleLayout/obj/Win32/Debug/ofxGuiLabel.obj
-exampleLayout/obj/Win32/Debug/ofxGuiInputField.obj
-exampleLayout/obj/Win32/Debug/ofxGuiGroup2.obj
-exampleLayout/obj/Win32/Debug/ofxGuiGraphics.obj
-exampleLayout/obj/Win32/Debug/ofxGuiFunctionPlotter.obj
-exampleLayout/obj/Win32/Debug/ofxGuiFpsPlotter.obj
-exampleLayout/obj/Win32/Debug/ofxGuiExtended2.obj
-exampleLayout/obj/Win32/Debug/ofxGuiElement.obj
-exampleLayout/obj/Win32/Debug/ofxGuiContainer.obj
-exampleLayout/obj/Win32/Debug/ofxGuiButton.obj
-exampleLayout/obj/Win32/Debug/ofxDOMLayoutHelper.obj
-exampleLayout/obj/Win32/Debug/ofxDOMFlexBoxLayout.obj
-exampleLayout/obj/Win32/Debug/ofxDOMBoxLayout.obj
-exampleLayout/obj/Win32/Debug/ofApp.obj
-exampleLayout/obj/Win32/Debug/main.obj
-exampleLayout/obj/Win32/Debug/Layout.obj
-exampleLayout/obj/Win32/Debug/JsonConfigParser.obj
-exampleLayout/obj/Win32/Debug/icon.res
-exampleLayout/obj/Win32/Debug/Exceptions.obj
-exampleLayout/obj/Win32/Debug/exampleLayout.tlog/rc.write.1.tlog
-exampleLayout/obj/Win32/Debug/exampleLayout.tlog/rc.read.1.tlog
-exampleLayout/obj/Win32/Debug/exampleLayout.tlog/rc.command.1.tlog
-exampleLayout/obj/Win32/Debug/exampleLayout.tlog/link.write.1.tlog
-exampleLayout/obj/Win32/Debug/exampleLayout.tlog/link.read.1.tlog
-exampleLayout/obj/Win32/Debug/exampleLayout.tlog/link.command.1.tlog
-exampleLayout/obj/Win32/Debug/exampleLayout.tlog/exampleLayout.write.1u.tlog
-exampleLayout/obj/Win32/Debug/exampleLayout.tlog/exampleLayout.lastbuildstate
-exampleLayout/obj/Win32/Debug/exampleLayout.tlog/CL.read.1.tlog
-exampleLayout/obj/Win32/Debug/exampleLayout.tlog/CL.command.1.tlog
-exampleLayout/obj/Win32/Debug/exampleLayout.tlog/CL.11696.write.1.tlog
-exampleLayout/obj/Win32/Debug/exampleLayout.log
-exampleLayout/obj/Win32/Debug/Events.obj
-exampleLayout/obj/Win32/Debug/Element.obj
-exampleLayout/obj/Win32/Debug/Document.obj
-testLayout/obj/Win32/Debug/vc141.pdb
-testLayout/obj/Win32/Debug/testLayout.tlog/testLayout.write.1u.tlog
-testLayout/obj/Win32/Debug/testLayout.tlog/testLayout.lastbuildstate
-testLayout/obj/Win32/Debug/testLayout.tlog/rc.write.1.tlog
-testLayout/obj/Win32/Debug/testLayout.tlog/rc.read.1.tlog
-testLayout/obj/Win32/Debug/testLayout.tlog/rc.command.1.tlog
-testLayout/obj/Win32/Debug/testLayout.tlog/link.write.1.tlog
-testLayout/obj/Win32/Debug/testLayout.tlog/link.read.1.tlog
-testLayout/obj/Win32/Debug/testLayout.tlog/link.command.1.tlog
-testLayout/obj/Win32/Debug/testLayout.tlog/CL.read.1.tlog
-testLayout/obj/Win32/Debug/testLayout.tlog/CL.command.1.tlog
-testLayout/obj/Win32/Debug/testLayout.tlog/CL.17216.write.1.tlog
-testLayout/obj/Win32/Debug/testLayout.log
-testLayout/obj/Win32/Debug/ofxGuiZoomableGraphics.obj
-testLayout/obj/Win32/Debug/ofxGuiValuePlotter.obj
-testLayout/obj/Win32/Debug/ofxGuiToggle.obj
-testLayout/obj/Win32/Debug/ofxGuiTabs.obj
-testLayout/obj/Win32/Debug/ofxGuiSliderGroup.obj
-testLayout/obj/Win32/Debug/ofxGuiSlider.obj
-testLayout/obj/Win32/Debug/ofxGuiRangeSlider.obj
-testLayout/obj/Win32/Debug/ofxGuiPanel.obj
-testLayout/obj/Win32/Debug/ofxGuiMenu.obj
-testLayout/obj/Win32/Debug/ofxGuiLabel.obj
-testLayout/obj/Win32/Debug/ofxGuiInputField.obj
-testLayout/obj/Win32/Debug/ofxGuiGroup.obj
-testLayout/obj/Win32/Debug/ofxGuiGraphics.obj
-testLayout/obj/Win32/Debug/ofxGuiFunctionPlotter.obj
-testLayout/obj/Win32/Debug/ofxGuiFpsPlotter.obj
-testLayout/obj/Win32/Debug/ofxGuiExtended.obj
-testLayout/obj/Win32/Debug/ofxGuiElement.obj
-testLayout/obj/Win32/Debug/ofxGuiContainer.obj
-testLayout/obj/Win32/Debug/ofxGuiButton.obj
-testLayout/obj/Win32/Debug/ofxDOMLayoutHelper.obj
-testLayout/obj/Win32/Debug/ofxDOMFlexBoxLayout.obj
-testLayout/obj/Win32/Debug/ofxDOMBoxLayout.obj
-testLayout/obj/Win32/Debug/ofApp.obj
-testLayout/obj/Win32/Debug/main.obj
-testLayout/obj/Win32/Debug/Layout.obj
-testLayout/obj/Win32/Debug/JsonConfigParser.obj
-testLayout/obj/Win32/Debug/icon.res
-testLayout/obj/Win32/Debug/Exceptions.obj
-testLayout/obj/Win32/Debug/Events.obj
-testLayout/obj/Win32/Debug/Element.obj
-testLayout/obj/Win32/Debug/Document.obj
-testLayout/bin/testLayout_debug.pdb
-testLayout/bin/testLayout_debug.lib
-testLayout/bin/testLayout_debug.ilk
-testLayout/bin/testLayout_debug.exp
-testLayout/bin/testLayout_debug.exe
-testLayout/bin/FreeImage.dll
-testLayout/bin/fmodexL.dll
-testLayout/bin/fmodex.dll
-testLayout/.vs/testLayout/v15/Solution.VC.db-wal
-testLayout/.vs/testLayout/v15/Solution.VC.db-shm
-testLayout/.vs/testLayout/v15/Solution.VC.db
-testLayout/.vs/testLayout/v15/ipch/AutoPCH/9ad8efc2dc1a3862/OFAPP.ipch
-testLayout/.vs/testLayout/v15/Browse.VC.db
-testLayout/.vs/testLayout/v15/.suo
-exampleLayout/src/ofApp.h
-exampleLayout/src/ofApp.cpp
-exampleLayout/icon.rc
-exampleLayout/exampleLayout.vcxproj.user
-exampleLayout/exampleLayout.vcxproj.filters
-exampleLayout/exampleLayout.vcxproj
-exampleLayout/exampleLayout.sln
-exampleLayout/bin/FreeImage.dll
-exampleLayout/bin/fmodexL.dll
-exampleLayout/bin/fmodex.dll
-exampleLayout/bin/exampleLayout_debug.pdb
-exampleLayout/bin/exampleLayout_debug.lib
-exampleLayout/bin/exampleLayout_debug.ilk
+##-------------------------------
+
+## can exclude some sttings files
+
+#*.XML
+#*.xml
+#*.JSON
+#*.json
+
+#*/bin/*
+#!*/bin/data/
+#[Bb]in/
+
+# for bin folder in root
+#/bin/*
+#!/bin/data/
+
+##-------------------------------
+
+docs/html
+docs/tagfile.xml
+
+[Bb]uild/
+[Oo]bj/
+*.o
+[Dd]ebug*/
+[Rr]elease*/
+*.mode*
+*.app/
+*.pyc
+.svn/
+
+#########################
+# IDE
+#########################
+
+# VS2017
+*.vcxproj
+*.vcxproj.*
+icon.rc
+*.vs
+*.vs/
+*.vs/*
+*.vs/
+*.sln
+*.filters
+*.user
+
+#vs2017
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+icon.rc
+*.vs/*
+
+##-------------------------------
+
+# XCode
+*.xcodeproj
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+#XCode 4
+xcuserdata
+*.xcworkspace
+*.xcodeproj/project.pbxproj
+*.xcodeproj/xcshareddata/xcschemes/
+
+# AppCode
+*.idea
+*.idea/
+*.idea/*
+*.idea/
+*/.idea/workspace.xml
+
+# Code::Blocks
+*.depend
+*.layout
+*.cbTemp
+
+# Visual Studio
+*.sdf
+*.opensdf
+*.suo
+*.pdb
+*.ilk
+*.aps
+ipch/
+
+# Eclipse
+.metadata
+local.properties
+.externalToolBuilders
+
+# Codelite
+*.session
+*.tags
+*.workspace.*
+
+#########################
+# operating system
+#########################
+
+# Linux
+*~
+# KDE
+.directory
+.AppleDouble
+
+# OSX
+.DS_Store
+*.swp
+*~.nib
+# Thumbnails
+._*
+
+# Windows
+# Windows image file caches
+Thumbs.db
+# Folder config file
+Desktop.ini
+
+#Android
+.csettings
+
+#########################
+# packages
+#########################
+
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+
+##-------------------------------
+
+## more c++ patterns
+## https://github.com/github/gitignore/blob/master/C%2B%2B.gitignore
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+
+##-----------------------------------------------------------------
+
+## more VS patterns
+## https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
+
+
+## Ignore Visual Studio temporary files, build results, and
+## files generated by popular Visual Studio add-ons.
+##
+## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Mono auto generated files
+mono_crash.*
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+#[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+# Visual Studio 2017 auto generated files
+Generated\ Files/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+# Benchmark Results
+BenchmarkDotNet.Artifacts/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Chutzpah Test files
+_Chutzpah*
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Visual Studio Trace Files
+*.e2e
+
+# TFS 2012 Local Workspace
+$tf/
+
+# Guidance Automation Toolkit
+*.gpState
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# TeamCity is a build add-in
+_TeamCity*
+
+# DotCover is a Code Coverage Tool
+*.dotCover
+
+# AxoCover is a Code Coverage Tool
+.axoCover/*
+!.axoCover/settings.json
+
+# Coverlet is a free, cross platform Code Coverage Tool
+coverage*[.json, .xml, .info]
+
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# MightyMoose
+*.mm.*
+AutoTest.Net/
+
+# Web workbench (sass)
+.sass-cache/
+
+# Installshield output folder
+[Ee]xpress/
+
+# DocProject is a documentation generator add-in
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/*.hhc
+DocProject/Help/*.hhk
+DocProject/Help/*.hhp
+DocProject/Help/Html2
+DocProject/Help/html
+
+# Click-Once directory
+publish/
+
+# Publish Web Output
+*.[Pp]ublish.xml
+*.azurePubxml
+# Note: Comment the next line if you want to checkin your web deploy settings,
+# but database connection strings (with potential passwords) will be unencrypted
+*.pubxml
+*.publishproj
+
+# Microsoft Azure Web App publish settings. Comment the next line if you want to
+# checkin your Azure Web App publish settings, but sensitive information contained
+# in these scripts will be unencrypted
+PublishScripts/
+
+# NuGet Packages
+*.nupkg
+# NuGet Symbol Packages
+*.snupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
+
+# Microsoft Azure Build Output
+csx/
+*.build.csdef
+
+# Microsoft Azure Emulator
+ecf/
+rcf/
+
+# Windows Store app package directories and files
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+*.appx
+*.appxbundle
+*.appxupload
+
+# Visual Studio cache files
+# files ending in .cache can be ignored
+*.[Cc]ache
+# but keep track of directories ending in .cache
+!?*.[Cc]ache/
+
+# Others
+ClientBin/
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+orleans.codegen.cs
+
+# Including strong name files can present a security risk
+# (https://github.com/github/gitignore/pull/2483#issue-259490424)
+#*.snk
+
+# Since there are multiple workflows, uncomment next line to ignore bower_components
+# (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
+#bower_components/
+
+# RIA/Silverlight projects
+Generated_Code/
+
+# Backup & report files from converting an old project file
+# to a newer Visual Studio version. Backup files are not needed,
+# because we have git ;-)
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+ServiceFabricBackup/
+*.rptproj.bak
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# Business Intelligence projects
+*.rdl.data
+*.bim.layout
+*.bim_*.settings
+*.rptproj.rsuser
+*- [Bb]ackup.rdl
+*- [Bb]ackup ([0-9]).rdl
+*- [Bb]ackup ([0-9][0-9]).rdl
+
+# Microsoft Fakes
+FakesAssemblies/
+
+# GhostDoc plugin setting file
+*.GhostDoc.xml
+
+# Node.js Tools for Visual Studio
+.ntvs_analysis.dat
+node_modules/
+
+# Visual Studio 6 build log
+*.plg
+
+# Visual Studio 6 workspace options file
+*.opt
+
+# Visual Studio 6 auto-generated workspace file (contains which files were open etc.)
+*.vbw
+
+# Visual Studio LightSwitch build output
+**/*.HTMLClient/GeneratedArtifacts
+**/*.DesktopClient/GeneratedArtifacts
+**/*.DesktopClient/ModelManifest.xml
+**/*.Server/GeneratedArtifacts
+**/*.Server/ModelManifest.xml
+_Pvt_Extensions
+
+# Paket dependency manager
+.paket/paket.exe
+paket-files/
+
+# FAKE - F# Make
+.fake/
+
+# CodeRush personal settings
+.cr/personal
+
+# Python Tools for Visual Studio (PTVS)
+__pycache__/
+*.pyc
+
+# Cake - Uncomment if you are using it
+# tools/**
+# !tools/packages.config
+
+# Tabs Studio
+*.tss
+
+# Telerik's JustMock configuration file
+*.jmconfig
+
+# BizTalk build output
+*.btp.cs
+*.btm.cs
+*.odx.cs
+*.xsd.cs
+
+# OpenCover UI analysis results
+OpenCover/
+
+# Azure Stream Analytics local run output
+ASALocalRun/
+
+# MSBuild Binary and Structured Log
+*.binlog
+
+# NVidia Nsight GPU debugger configuration file
+*.nvuser
+
+# MFractors (Xamarin productivity tool) working folder
+.mfractor/
+
+# Local History for Visual Studio
+.localhistory/
+
+# BeatPulse healthcheck temp database
+healthchecksdb
+
+# Backup folder for Package Reference Convert tool in Visual Studio 2017
+MigrationBackup/
+
+# Ionide (cross platform F# VS Code tools) working folder
+.ionide/
 exampleLayout/bin/exampleLayout_debug.exp
-exampleLayout/bin/exampleLayout_debug.exe
-exampleLayout/addons.make
-exampleLayout/.vs/exampleLayout/v15/Solution.VC.db
-exampleLayout/.vs/exampleLayout/v15/ipch/AutoPCH/a7408c195ce4958a/LAYOUT.ipch
-exampleLayout/.vs/exampleLayout/v15/ipch/AutoPCH/9ee5b53bcb9e0f47/DOCUMENT.ipch
-exampleLayout/.vs/exampleLayout/v15/ipch/AutoPCH/4d08b59f43886297/MAIN.ipch
-exampleLayout/.vs/exampleLayout/v15/ipch/AutoPCH/1a950ccfd76df114/OFAPP.ipch
-exampleLayout/.vs/exampleLayout/v15/Browse.VC.db
-exampleLayout/.vs/exampleLayout/v15/.suo
-testLayout/testLayout.sln
-testLayout/testLayout.vcxproj
-testLayout/testLayout.vcxproj.filters
-testLayout/testLayout.vcxproj.user
-testLayout/icon.rc
-=======
-exampleParameterGroup/bin/data/assets/images/Map.jpg
-exampleParameterGroup/bin/data/assets/LUTs/Brannan.cube
-exampleParameterGroup/bin/data/assets/LUTs/Earlybird.cube
-exampleParameterGroup/bin/data/assets/LUTs/Gotham.cube
-exampleParameterGroup/bin/data/assets/LUTs/Hefe.cube
-exampleParameterGroup/bin/data/assets/LUTs/Inkwell.cube
-exampleParameterGroup/bin/data/assets/LUTs/Lomo-fi.cube
-exampleParameterGroup/bin/data/assets/LUTs/Lord Kelvin.cube
-exampleParameterGroup/bin/data/assets/LUTs/Nashville.cube
-exampleParameterGroup/bin/data/assets/LUTs/Sutro.cube
-exampleParameterGroup/bin/data/assets/LUTs/Toaster.cube
-exampleParameterGroup/bin/data/assets/LUTs/Walden.cube
-exampleParameterGroup/bin/data/assets/LUTs/X Pro II.cube
-exampleParameterGroup/bin/data/assets/shaders/basic.vert
-exampleParameterGroup/bin/data/assets/shaders/basicVertex.vert
-exampleParameterGroup/bin/data/assets/shaders/BlobsGradient.frag
-exampleParameterGroup/bin/data/assets/shaders/CircleNoise.frag
-exampleParameterGroup/bin/data/assets/shaders/circles.frag
-exampleParameterGroup/bin/data/assets/shaders/composite.frag
-exampleParameterGroup/bin/data/assets/shaders/composite.vert
-exampleParameterGroup/bin/data/assets/shaders/composite_rgb.frag
-exampleParameterGroup/bin/data/assets/shaders/composite_rgb.vert
-exampleParameterGroup/bin/data/assets/shaders/hexagon.frag
-exampleParameterGroup/bin/data/assets/shaders/HexTunnel.frag
-exampleParameterGroup/bin/data/assets/shaders/HuePointCloud.frag
-exampleParameterGroup/bin/data/assets/shaders/PointCloud.frag
-exampleParameterGroup/bin/data/assets/shaders/pointCloud_other.frag
-exampleParameterGroup/bin/data/assets/shaders/pointCloud_other.vert
-exampleParameterGroup/bin/data/assets/shaders/removeBlack.frag
-exampleParameterGroup/bin/data/assets/shaders/removeBlack.vert
-exampleParameterGroup/bin/data/assets/shaders/rippleTunnel.frag
-exampleParameterGroup/bin/data/assets/shaders/SpikeField.frag
-exampleParameterGroup/bin/data/assets/shaders/triangleLightTunnel.frag
-exampleParameterGroup/bin/data/assets/shaders/twist.frag
-exampleParameterGroup/bin/data/assets/shaders/twist.vert
-exampleParameterGroup/Makefile
-exampleParameterGroup/exampleParameterGroup.xcodeproj/xcshareddata/xcschemes/exampleParameterGroup Release.xcscheme
-exampleParameterGroup/exampleParameterGroup.xcodeproj/xcshareddata/xcschemes/exampleParameterGroup Debug.xcscheme
-exampleParameterGroup/exampleParameterGroup.xcodeproj/project.xcworkspace/xcuserdata/manumolina.xcuserdatad/UserInterfaceState.xcuserstate
-exampleParameterGroup/exampleParameterGroup.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
-exampleParameterGroup/exampleParameterGroup.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
-exampleParameterGroup/exampleParameterGroup.xcodeproj/project.xcworkspace/contents.xcworkspacedata
-exampleParameterGroup/exampleParameterGroup.xcodeproj/project.pbxproj
-exampleParameterGroup/openFrameworks-Info.plist
-exampleParameterGroup/Project.xcconfig
-exampleParameterGroup/bin/data/assets/3D/nyc-small.exr
->>>>>>> dbcf9eeb0a1e35b43a29cc1e66b325d040f67b19
+example/bin/example_debug.exp
+exampleParameterGroup/bin/exampleParameterGroup_debug.exp
+testLayout/bin/testLayout_debug.exp
