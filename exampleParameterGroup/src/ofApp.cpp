@@ -4,18 +4,22 @@
 void ofApp::setup() {
 	ofSetFrameRate(60);
 
+	//my classes
 	renderer1.setup("renderer1");
 	renderer2.setup("renderer2");
 
+	//params1
 	parameters1.setName("parameters1");
 	parameters1.add(vSync.set("b",true));
     parameters1.add(renderer1.parameters);
 
+	//params2
 	parameters2.setName("parameters2");
     parameters2.add(renderer1.parameters);
     parameters2.add(renderer2.parameters);
     parameters2.add(parameters1);
 
+	//add all nested
 	panel = gui.addPanel();
 	panel->addGroup(parameters2);
 

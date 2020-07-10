@@ -49,6 +49,7 @@ icon.rc
 *.sln
 *.filters
 *.user
+*.exp
 
 #vs2017
 *.sln
@@ -549,7 +550,3 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
-exampleLayout/bin/exampleLayout_debug.exp
-example/bin/example_debug.exp
-exampleParameterGroup/bin/exampleParameterGroup_debug.exp
-testLayout/bin/testLayout_debug.exp
