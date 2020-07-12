@@ -1,11 +1,19 @@
 # ofxGuiExtended2
 
-This is a modified version to avoid conflicts with duplicated names (ofxGuiGroup) when using the addon together (in ofApp or in some included ofxAddon) with the official ofxGui. 'ofxGuiGroup' is renamed to 'ofxGuiGroup2'.
+##NOTE by @moebiussurfing:##  
 
-You can have both 'ofxGuiExtended' & 'ofxGuiExtended2' into '/addons' folders to make compatible with older/other projects... 
+**WHY THIS FORK?**  
 
-Then you must include 'ofxGuiExtended2.h' as usual and to use 'ofxGuiGroup2' class.
-The use of this addon it's only recommended when you need to use the OF 'ofxGui' in the same project.
+- This is a modified version to avoid conflicts with duplicated names (ofxGuiGroup) when using the addon together (in ofApp or some included ofxAddon) with the official ofxGui. 'ofxGuiGroup' is renamed to 'ofxGuiGroup2'.  
+
+- Of course, you can have both 'ofxGuiExtended' & 'ofxGuiExtended2' into **OF/addons** folder to make compatible with older/other projects...  
+
+- Then you must include 'ofxGuiExtended2.h' as usual, and to use 'ofxGuiGroup2' instead of 'ofxGuiGroup' class.  
+
+- The use of this addon it's only "recommended" when you need to use the OF 'ofxGui' and 'ofxGuiExtended' in the same project.  
+
+- I modified also the way the addon adds ofParameterGroup to the containers: now all nested groups have their own collapsable header.  
+
 
 ----------------
 
