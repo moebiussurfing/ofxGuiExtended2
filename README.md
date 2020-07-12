@@ -1,6 +1,6 @@
 # ofxGuiExtended2
 
-##NOTE by @moebiussurfing:##  
+## NOTE by @moebiussurfing:  
 
 **WHY THIS FORK?**  
 
