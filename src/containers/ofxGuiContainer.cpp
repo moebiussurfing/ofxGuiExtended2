@@ -137,6 +137,7 @@ void ofxGuiContainer::add(const std::shared_ptr<ofAbstractParameter> & p){
 	}else if(type == typeid(ofParameter<string>).name()){
 		add(p->cast<string>());
 	}else if(type == typeid(ofParameterGroup).name()){
+		//TODO: i am not sure if this tweak breaks something...
 		add<ofxGuiGroup2>(static_cast<ofParameterGroup& >(*p));//this tweak allows that nested ofParameterGroup, show all their clickable/collapsable headers!
 		//add<ofxGuiContainer>(static_cast<ofParameterGroup& >(*p));//original
 		////add<ofxGuiContainer>(p->castGroup());//original commented

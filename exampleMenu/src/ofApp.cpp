@@ -42,7 +42,9 @@ void ofApp::setup(){
 
 	ofxGuiContainer* menu = gui.addMenu(data);
 
-	menu->loadTheme("theme_light.json", true);
+	//menu->loadTheme("theme_default.json", true);
+	//menu->loadTheme("theme_light.json", true);
+	menu->loadTheme("theme3.json", true);
 
 	addCircle.addListener(this, &ofApp::drawCircle);
 	addRectangle.addListener(this, &ofApp::drawRectangle);

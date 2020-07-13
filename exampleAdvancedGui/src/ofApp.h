@@ -1,7 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
-#include "ofxGuiExtended.h"
+#include "ofxGuiExtended2.h"
 
 class ofApp : public ofBaseApp {
 
@@ -27,12 +27,12 @@ class ofApp : public ofBaseApp {
 		ofxGui gui;
 
 		ofxGuiContainer *containerExample;
-		ofxGuiGroup *groupExample;
+		ofxGuiGroup2 *groupExample;
 		ofxGuiPanel *panelExample;
 		ofParameter<string> containerLabel, groupLabel, panelLabel;
 
 		ofxGuiPanel *panel1;
-		ofxGuiGroup *labels, *buttons;
+		ofxGuiGroup2 *labels, *buttons;
 
 		//plotter
 		ofParameter<ofPoint> sinus;
@@ -54,7 +54,7 @@ class ofApp : public ofBaseApp {
 
 		//color panel
 		ofxGuiPanel* colorPanel;
-		ofxGuiGroup *colorToggles;
+		ofxGuiGroup2 *colorToggles;
 
 		ofParameterGroup colorParameters;
 		ofParameter<bool> color0;
