@@ -12,14 +12,14 @@ void ofApp::setup(){
 	fbo.allocate(img.getWidth(), img.getHeight(), GL_RGB);
 
 	// add panel 1
-	ofxGuiGroup* panel1 = gui.addPanel("graphics");
+	ofxGuiGroup2* panel1 = gui.addPanel("graphics");
 	panel1->setPosition(260, 90);
 
 	// add image texture with fixed height
 	panel1->add<ofxGuiGraphics>("some texture", &img.getTexture(), ofJson({{"height", 200}}));
 
 	// add panel 2
-	ofxGuiGroup* panel2 = gui.addPanel("zoomable graphics");
+	ofxGuiGroup2* panel2 = gui.addPanel("zoomable graphics");
 	panel2->setPosition(500, 90);
 
 	// add image texture and get the pointer to this graphics gui element
