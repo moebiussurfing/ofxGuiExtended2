@@ -7,7 +7,7 @@ void ofApp::setup(){
 
 	gui.setupFlexBoxLayout();
 
-	ofxGuiGroup* all = gui.addGroup("", ofJson({
+	ofxGuiGroup2* all = gui.addGroup("", ofJson({
 		{"flex-direction", "column"},
 		{"background-color", "#rgba(0,0,0,0)"},
 		{"flex", 1},
@@ -18,7 +18,7 @@ void ofApp::setup(){
 		{"position", "static"}
 	}));
 
-	ofxGuiGroup* control = all->addGroup("control", ofJson({
+	ofxGuiGroup2* control = all->addGroup("control", ofJson({
 		{"show-header", false},
 		{"flex-direction", "row"},
 		{"height", 50}
@@ -60,7 +60,7 @@ void ofApp::setup(){
 	wrapItems->setExclusiveToggles(true);
 	wrapItems->setActiveToggle(0);
 
-	ofxGuiGroup* groupsGroup = all->addGroup("", ofJson({
+	ofxGuiGroup2* groupsGroup = all->addGroup("", ofJson({
 		{"flex-direction", "row"},
 		{"flex", 1},
 		{"show-header", false}
@@ -82,7 +82,7 @@ void ofApp::setup(){
 		{"background-color", "#2377BA"}
 	})));
 
-	for(ofxGuiGroup* group : groups){
+	for(ofxGuiGroup2* group : groups){
 		for(int i = 0; i < 22; i++){
 			group->addLabel(ofToString(i), ofJson({
 				{"border-width", 1},
@@ -117,7 +117,7 @@ void ofApp::setAlignContent(int &index){
 		default: case 0: value = "stretch"; break;
 	}
 
-	for(ofxGuiGroup* group : groups){
+	for(ofxGuiGroup2* group : groups){
 		group->setConfig(ofJson({{"align-content", value}}));
 	}
 }
@@ -131,7 +131,7 @@ void ofApp::setAlignItems(int &index){
 		default: case 0: value = "stretch"; break;
 	}
 
-	for(ofxGuiGroup* group : groups){
+	for(ofxGuiGroup2* group : groups){
 		group->setConfig(ofJson({{"align-items", value}}));
 	}
 }
@@ -146,7 +146,7 @@ void ofApp::setJustifyContent(int &index){
 		default: case 0: value = "flex-start"; break;
 	}
 
-	for(ofxGuiGroup* group : groups){
+	for(ofxGuiGroup2* group : groups){
 		group->setConfig(ofJson({{"justify-content", value}}));
 	}
 }
@@ -158,7 +158,7 @@ void ofApp::setWrapItems(int &index){
 		default: case 0:	value = "wrap"; break;
 	}
 
-	for(ofxGuiGroup* group : groups){
+	for(ofxGuiGroup2* group : groups){
 		group->setConfig(ofJson({{"flex-wrap", value}}));
 	}
 }

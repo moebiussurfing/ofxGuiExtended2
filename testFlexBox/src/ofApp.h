@@ -1,7 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
-#include "ofxGuiExtended.h"
+#include "ofxGuiExtended2.h"
 
 class ofApp : public ofBaseApp{
 
@@ -30,11 +30,11 @@ class ofApp : public ofBaseApp{
 
 		ofxGui gui;
 
-		vector<ofxGuiGroup*> groups;
+		vector<ofxGuiGroup2*> groups;
 
-		ofxGuiGroup* justifyContent;
-		ofxGuiGroup* alignItems;
-		ofxGuiGroup* alignContent;
-		ofxGuiGroup* wrapItems;
+		ofxGuiGroup2* justifyContent;
+		ofxGuiGroup2* alignItems;
+		ofxGuiGroup2* alignContent;
+		ofxGuiGroup2* wrapItems;
 
 };
