@@ -84,8 +84,9 @@ void ofxGuiPanelHeader::render() {
 
 	bool texHackEnabled = ofIsTextureEdgeHackEnabled();
 	ofDisableTextureEdgeHack();
-	loadIcon.draw(loadBox);
-	saveIcon.draw(saveBox);
+	// TODO: moebiussurfing customize. hide icons!
+	//loadIcon.draw(loadBox);
+	//saveIcon.draw(saveBox);
 	if(texHackEnabled){
 		ofEnableTextureEdgeHack();
 	}
